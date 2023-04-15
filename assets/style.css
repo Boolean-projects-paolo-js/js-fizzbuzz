@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: rgb(28, 74, 76);
+}
+
+.container{
+    max-width: 1000px;
+    margin:auto
+}
+
+.title{ 
+    color: white;
+    text-align: center;  
+    font-size: 65px;  
+    font-weight: 700;
+}
+
+.grid{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(58, 113, 145);
+    margin: 10px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.fizz{
+    background-color: rgb(72, 208, 163); 
+}
+
+.buzz{
+    background-color: rgb(255, 207, 48); 
+}
+
+.fizzbuzz{
+    background-color: rgb(240, 47, 98); 
+}
